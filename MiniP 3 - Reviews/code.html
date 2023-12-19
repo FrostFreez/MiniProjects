@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script type="text/javascript" src="action.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>School guide</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body onload="changePerson(0)">
+        <div class="header">
+            <h1>My school for the future</h1>
+        </div>
+        <img id="img" src="" alt="aqui"/>
+        <h4 id="name"></h4>
+        <div>
+            <h4 onmouseover="style='cursor: pointer;'" onclick="changePerson(-1)"><</h4>
+            <h4 id="index"></h4>
+            <h4 onmouseover="style='cursor: pointer;'" onclick="changePerson(1)">></h4>
+        </div>
+        <h4 onmouseover="style='cursor: pointer;'" onclick="changePerson('R')">Surprise Me</h4>
+    </body>
+</html>

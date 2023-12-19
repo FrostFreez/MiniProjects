@@ -1,0 +1,27 @@
+:root {
+    --bc: antiquewhite;
+  }
+  body{
+    margin: 0;
+}
+h1{
+    font-size: 100px;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+}
+h4{
+    padding: 20px;
+    font-size: 40px;
+    height: 20%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--bc);
+}
+.header{
+    background-color: antiquewhite;
+}
